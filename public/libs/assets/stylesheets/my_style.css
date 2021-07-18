@@ -1,0 +1,127 @@
+.table_item {
+    text-align: center;
+}
+
+.Show_avatar {
+    height: 35px;
+    border-radius: 3px;
+    max-width: 100px;
+    object-fit: cover;
+}
+
+.Show_Thumbnail {
+    height: 45px;
+    border-radius: 3px;
+    max-width: 100px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.container_form {
+    display: flex;
+    justify-content: center;
+}
+
+.container_form h1{
+    text-align: center;
+}
+
+.container_form > div {
+    padding: 10px 15px 40px 15px;
+    box-shadow: #bcbcbc 0 0 10000px 10px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.cate_thumnail {
+    height: 50px;
+    cursor: pointer;
+}
+
+.page_active {
+    background: #3c3c3c;
+}
+
+
+.search_form {
+    height: 34px;
+    transform: translateY(2px);
+    width: 250px;
+    border: #b8b8b8 1px solid;
+    border-radius: 4px;
+}
+
+button:focus , input:focus {
+    outline: none;
+}
+
+
+.btn-search {
+    height: 34px;
+    transform: translateY(2px);
+    background: none;
+    background: rgba(254, 93, 93, 0.91);
+    color: white;
+    border: #b8b8b8 1px solid;
+    border-radius: 4px;
+}
+
+.cate_thumnail {
+    border-radius: 3px;
+}
+
+.view_images_product {
+    height: 60px;
+    margin: 2px;
+    border-radius: 3px;
+    border: #f98e8e 2px solid;
+}
+
+
+.line_option {
+    height: 1px;
+    background: #898989;
+}
+.add_option {
+    height: 30px;
+    width: 30px;
+    border: #6f6f6f 2px solid;
+    color: #6f6f6f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto 30px auto;
+    cursor: pointer;
+}
+.remove_option {
+    height: 30px;
+    width: 30px;
+    border: #6f6f6f 2px solid;
+    color: #6f6f6f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+    cursor: pointer;
+    transform: translateY(-31px) translateX(115px);
+    font-size: 25px;
+}
+
+.btn_remove_img {
+    color: red;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    line-height: 7px;
+    height: 20px;
+    width: 20px!important;
+    border: red 2px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(26px) translateX(7px);
+}
+
+.btn_remove_img:hover{
+    border: #ffffff 2px solid;
+}
